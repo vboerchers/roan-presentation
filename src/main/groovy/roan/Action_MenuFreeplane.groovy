@@ -39,7 +39,6 @@ Closure parm_fromTranslation_private={//used in node
 	val-> return val  //no translation, raw menu key
 	}
 
-@ Override
 void execute(Data data, Data.State col){
 	if (parms!=null&&parms!=[]) MenuFreeplane.invoke_executeMenuActions([parms[0]])
 }

@@ -10,23 +10,24 @@ import javax.swing.event.MenuListener;
 class MenuItem extends JMenuItem{
 	def menuObject
 	def invoker //top optionally set
-	
+
 	MenuItem(String title, def menuExecute){
 		super(title)
 		this.menuObject=menuExecute
 		addActionListener(handler)
 		setVisible(true)
 	}
-	
+
 	void execute(){menuObject.executeMenuItem(invoker)}
-	
-  
-  ActionListener handler = new ActionListener() {
-	  public void actionPerformed(ActionEvent e) {
-		  MenuItem m=e.getSource()
-		  m.execute()
-	  }
-	};
 
+
+	private ActionListener createHandler() {
+		new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						MenuItem m=e.getSource()
+						m.execute()
+					}
+				};
+
+	}
 }
-

@@ -18,8 +18,8 @@ import scriptlib.StringLib
 import scriptlib.Message
 
 class ActionsField extends JTextArea{
-	JTextArea ta
-	Integer columns
+	private JTextArea ta
+	private Integer columns
 	void clearBackground(){setBackground(Color.WHITE)}
 	
 	

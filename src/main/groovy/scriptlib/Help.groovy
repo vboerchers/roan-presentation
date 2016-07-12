@@ -5,12 +5,10 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import javax.swing.SwingUtilities;
-import org.freeplane.features.map.mindmapmode.MMapController;
 import org.freeplane.core.resources.ResourceController;
 import org.freeplane.core.util.ConfigurationUtils;
 import org.freeplane.core.util.LogUtils;
 import org.freeplane.features.mode.Controller;
-import org.freeplane.features.mode.mindmapmode.MModeController;
 import java.security.*;
 
 class Help {
