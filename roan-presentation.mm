@@ -1,7 +1,6 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<attribute_registry SHOW_ATTRIBUTES="hide"/>
-<node TEXT="Roan-Presentation" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1412589536286" BACKGROUND_COLOR="#97c7dc" LINK="https://sourceforge.net/projects/freeplane/files/addons/roan/presentation/">
+<node TEXT="Roan-Presentation" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1468364996235" BACKGROUND_COLOR="#97c7dc" LINK="https://sourceforge.net/projects/freeplane/files/addons/roan/presentation/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="false" show_note_icons="true"/>
@@ -56,9 +55,10 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="4"/>
 <attribute_layout NAME_WIDTH="144" VALUE_WIDTH="144"/>
 <attribute NAME="name" VALUE="roan"/>
-<attribute NAME="version" VALUE="0.1.3"/>
+<attribute NAME="version" VALUE="0,2" OBJECT="org.freeplane.features.format.FormattedNumber|0.2"/>
 <attribute NAME="author" VALUE="Jodi D.Krol"/>
-<attribute NAME="graphics" VALUE="Pedrag Cucklin"/>
+<attribute NAME="maintainer since 2.0" VALUE="Volker B&#xf6;rchers"/>
+<attribute NAME="graphics" VALUE="Pedrag Cuklin"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.3.11"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
 <attribute NAME="updateUrl" VALUE=""/>
@@ -101,7 +101,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="description" FOLDED="true" POSITION="left" ID="ID_342474895" CREATED="1399926585605" MODIFIED="1411675050427">
+<node TEXT="description" POSITION="left" ID="ID_342474895" CREATED="1399926585605" MODIFIED="1468364519464">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -143,7 +143,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1771154217" CREATED="1399926585625" MODIFIED="1411675050443">
+<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1771154217" CREATED="1399926585625" MODIFIED="1468364519467">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -160,7 +160,7 @@
 </richcontent>
 <node TEXT="see Help file" ID="ID_1209734697" CREATED="1403000881360" MODIFIED="1403000890067"/>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_166707522" CREATED="1399926585645" MODIFIED="1411675050458">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_166707522" CREATED="1399926585645" MODIFIED="1468364519472">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -183,7 +183,7 @@
 </richcontent>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the&#xa;GNU General Public License for more details." ID="ID_1198072133" CREATED="1399926585655" MODIFIED="1403811602198"/>
 </node>
-<node TEXT="default.properties" FOLDED="true" POSITION="left" ID="ID_1785222944" CREATED="1399926585745" MODIFIED="1412589536286">
+<node TEXT="default.properties" FOLDED="true" POSITION="left" ID="ID_1785222944" CREATED="1399926585745" MODIFIED="1468364519480">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -236,7 +236,7 @@
 <attribute NAME="addons.roan.windowHeight" VALUE="&quot;720"/>
 <attribute NAME="addons.roan.imageinline.widthMax" VALUE="&quot;400"/>
 <attribute NAME="addons.roan.imageinline.heightMax" VALUE="&quot;300"/>
-<node TEXT="tools" ID="ID_1578864265" CREATED="1403179041931" MODIFIED="1405283287527">
+<node TEXT="tools" FOLDED="true" ID="ID_1578864265" CREATED="1403179041931" MODIFIED="1405283287527">
 <font BOLD="true"/>
 <node TEXT="Instruction for translation" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1291857751" CREATED="1403185903209" MODIFIED="1403185991547">
 <node TEXT="Copy node &quot;en&quot;" ID="ID_871000443" CREATED="1403185951531" MODIFIED="1403185979449"/>
@@ -359,28 +359,28 @@
 <node TEXT="addons.roan.whilePlay.doAutoZoom" FOLDED="true" ID="ID_1089034734" CREATED="1406893971716" MODIFIED="1406894298013">
 <node TEXT="false" ID="ID_1035173251" CREATED="1406893971716" MODIFIED="1406893971716"/>
 </node>
-<node TEXT="addons.roan.whilePlay.autoZoomMax" ID="ID_1093542335" CREATED="1406894863463" MODIFIED="1406894916713">
+<node TEXT="addons.roan.whilePlay.autoZoomMax" FOLDED="true" ID="ID_1093542335" CREATED="1406894863463" MODIFIED="1406894916713">
 <node TEXT="&quot;150" ID="ID_849336706" CREATED="1407233825370" MODIFIED="1411759658102"/>
 </node>
-<node TEXT="addons.roan.whilePlay.autoZoomMin" ID="ID_1224275639" CREATED="1406894897073" MODIFIED="1406894937003">
+<node TEXT="addons.roan.whilePlay.autoZoomMin" FOLDED="true" ID="ID_1224275639" CREATED="1406894897073" MODIFIED="1406894937003">
 <node TEXT="&quot;100" ID="ID_829953913" CREATED="1406894897073" MODIFIED="1411759665247"/>
 </node>
-<node TEXT="addons.roan.windowWidth" ID="ID_1279001807" CREATED="1407010105091" MODIFIED="1407010157063">
+<node TEXT="addons.roan.windowWidth" FOLDED="true" ID="ID_1279001807" CREATED="1407010105091" MODIFIED="1407010157063">
 <node TEXT="&quot;1280" ID="ID_13353093" CREATED="1407010105091" MODIFIED="1411759670831"/>
 </node>
-<node TEXT="addons.roan.windowHeight" ID="ID_823520974" CREATED="1407010181157" MODIFIED="1407010195993">
+<node TEXT="addons.roan.windowHeight" FOLDED="true" ID="ID_823520974" CREATED="1407010181157" MODIFIED="1407010195993">
 <node TEXT="&quot;720" ID="ID_173571701" CREATED="1407010181157" MODIFIED="1411759677929"/>
 </node>
-<node TEXT="addons.roan.imageinline.widthMax" ID="ID_303997330" CREATED="1411650006597" MODIFIED="1411717559883">
+<node TEXT="addons.roan.imageinline.widthMax" FOLDED="true" ID="ID_303997330" CREATED="1411650006597" MODIFIED="1411717559883">
 <node TEXT="&quot;400" ID="ID_402193220" CREATED="1407010181157" MODIFIED="1411759684622"/>
 </node>
-<node TEXT="addons.roan.imageinline.heightMax" ID="ID_696631871" CREATED="1411650006597" MODIFIED="1411717570694">
+<node TEXT="addons.roan.imageinline.heightMax" FOLDED="true" ID="ID_696631871" CREATED="1411650006597" MODIFIED="1411717570694">
 <node TEXT="&quot;300" ID="ID_506028947" CREATED="1407010181157" MODIFIED="1411759689115"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1559504636" CREATED="1399926585795" MODIFIED="1412589536286">
+<node TEXT="deinstall" POSITION="left" ID="ID_1559504636" CREATED="1399926585795" MODIFIED="1468364716343">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -395,17 +395,21 @@
   </body>
 </html>
 </richcontent>
-<attribute_layout NAME_WIDTH="42" VALUE_WIDTH="306"/>
+<attribute_layout NAME_WIDTH="51" VALUE_WIDTH="731"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_menuAction.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/roan-presentation.jar"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/roan.jar"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/scriptlib.jar"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/auto_clearUserDirFiles.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/auto_setLibAndFileAction.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/copyLinkToNodeInOtherMap.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/insertInlineImage.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/insertInlineImage_forRoAn.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_editDialogAction.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_helpAction.groovy"/>
+<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_menuAction.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_playAction.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_stepAction.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/insertInlineImage.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_editDialogAction.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/copyLinkToNodeInOtherMap.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/auto_setLibAndFileAction.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/auto_clearUserDirFiles.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/presentation_windowSizeAction.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/freeplane/freeplaneTutorial.mm"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/freeplane/freeplaneTutorial_nl.mm"/>
@@ -414,37 +418,29 @@
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/AlbumArt_{5FA05D35-A682-4AF6-96F7-0773E42D4D16}_Small.jpg"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/AlbumArt_{90050B65-0BAE-4F30-89CE-453F59AC7B77}_Large.jpg"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/AlbumArt_{90050B65-0BAE-4F30-89CE-453F59AC7B77}_Small.jpg"/>
-<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/circleNavigation.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/ctrl.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/desktop.ini"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/EditDialogs.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/enter.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/Folder.jpg"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/ID_133677263_1.mp3"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/ID_1952766141_1.mp3"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/Ins.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/Nieuwe mindmap.mm"/>
+<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/RoAn_logo.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/circleNavigation.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/ctrl.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/desktop.ini"/>
+<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/enter.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/mouse_LB.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/mouse_LB_2x.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/mouse_RB.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/Nieuwe mindmap.mm"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/roan-presentation_help.mm"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/roan-presentation_help_nl.mm"/>
-<attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/RoAn_logo.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/someMp3.mp3"/>
-<attribute NAME="delete" VALUE="${installationbase}/lib/roan.jar"/>
-<attribute NAME="delete" VALUE="${installationbase}/lib/scriptlib.jar"/>
-<attribute NAME="delete" VALUE="${installationbase}/resources/roan-back.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/resources/roan-step.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/resources/roan-stop.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/insertInlineImage_forRoAn.groovy"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/roan.jar"/>
-<attribute NAME="delete" VALUE="${installationbase}/addons/${name}/lib/scriptlib.jar"/>
+<attribute NAME="delete" VALUE="${installationbase}/icons/roan-Scene.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-back.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-step.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-stop.png"/>
-<attribute NAME="delete" VALUE="${installationbase}/icons/roan-Scene.png"/>
 </node>
-<node TEXT="scripts" FOLDED="true" POSITION="right" ID="ID_760814346" CREATED="1399926585835" MODIFIED="1411675050630">
+<node TEXT="scripts" FOLDED="true" POSITION="right" ID="ID_760814346" CREATED="1399926585835" MODIFIED="1468364519500">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -688,7 +684,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" FOLDED="true" POSITION="right" ID="ID_562669730" CREATED="1399926586037" MODIFIED="1411675050848">
+<node TEXT="zips" FOLDED="true" POSITION="right" ID="ID_562669730" CREATED="1399926586037" MODIFIED="1468364519574">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -727,11 +723,10 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="doc" ID="ID_1148428595" CREATED="1402667462146" MODIFIED="1402667462146" LINK="zips/doc/"/>
-<node TEXT="resources" ID="ID_1173457556" CREATED="1403863480459" MODIFIED="1403863480459" LINK="zips/resources/"/>
-<node TEXT="icons" ID="ID_129487079" CREATED="1411213237525" MODIFIED="1411213237525" LINK="zips/icons/"/>
+<node TEXT="doc" ID="ID_1148428595" CREATED="1402667462146" MODIFIED="1468364465603"/>
+<node TEXT="icons" ID="ID_129487079" CREATED="1411213237525" MODIFIED="1468364472195"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1191857106" CREATED="1399926586047" MODIFIED="1411675050926">
+<node TEXT="images" POSITION="right" ID="ID_1191857106" CREATED="1399926586047" MODIFIED="1468364519591">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -767,7 +762,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="lib" FOLDED="true" POSITION="right" ID="ID_1437272991" CREATED="1401781353621" MODIFIED="1411675050817">
+<node TEXT="lib" FOLDED="true" POSITION="right" ID="ID_1437272991" CREATED="1401781353621" MODIFIED="1468364519541">
 <edge COLOR="#7c7c00"/>
 <richcontent TYPE="NOTE">
 
@@ -806,13 +801,12 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="roan.jar" ID="ID_690167891" CREATED="1410894172307" MODIFIED="1410894172307"/>
-<node TEXT="scriptlib.jar" ID="ID_246282329" CREATED="1410894172322" MODIFIED="1410894172322"/>
+<node TEXT="roan-presentation.jar" ID="ID_690167891" CREATED="1410894172307" MODIFIED="1468364482426"/>
 </node>
 <node TEXT="Instruction for translating" LOCALIZED_STYLE_REF="styles.topic" POSITION="right" ID="ID_415454060" CREATED="1403188326818" MODIFIED="1403201382858" LINK="#ID_1819148369">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_478027492" CREATED="1399926585755" MODIFIED="1411675050536">
+<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_478027492" CREATED="1399926585755" MODIFIED="1468364519485">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -838,7 +832,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="en" ID="ID_536136732" CREATED="1399926585775" MODIFIED="1412619056403">
+<node TEXT="en" FOLDED="true" ID="ID_536136732" CREATED="1399926585775" MODIFIED="1412619056403">
 <attribute_layout NAME_WIDTH="465" VALUE_WIDTH="493"/>
 <attribute NAME="addons.${name}" VALUE="roan"/>
 <attribute NAME="addons.${name}.presentation" VALUE="RoAn-Presentation"/>
@@ -1074,7 +1068,7 @@
 <attribute NAME="addons.roan.index.sortBACKWARDTitle" VALUE="BACKWARD"/>
 <attribute NAME="addons.roan.index.showFileExtensionTitle" VALUE="Show file extension"/>
 <attribute NAME="addons.roan.index.isDirectoryNodesTitle" VALUE="Directory nodes"/>
-<node TEXT="tools" ID="ID_1632488322" CREATED="1403185437178" MODIFIED="1403807522413">
+<node TEXT="tools" FOLDED="true" ID="ID_1632488322" CREATED="1403185437178" MODIFIED="1403807522413">
 <font BOLD="true"/>
 <richcontent TYPE="DETAILS" HIDDEN="true">
 
@@ -2004,13 +1998,13 @@
 <node TEXT="addons.roan.index.divisionRootLEFTRIGHTTitle" FOLDED="true" ID="ID_350430656" CREATED="1412588123927" MODIFIED="1412588312414">
 <node TEXT="LEFT-RIGHT" ID="ID_599150158" CREATED="1412588123927" MODIFIED="1412588312430"/>
 </node>
-<node TEXT="addons.roan.index.divisionRootRIGHTLEFTTitle" ID="ID_796406483" CREATED="1412588136446" MODIFIED="1412588312430">
+<node TEXT="addons.roan.index.divisionRootRIGHTLEFTTitle" FOLDED="true" ID="ID_796406483" CREATED="1412588136446" MODIFIED="1412588312430">
 <node TEXT="RIGHT-LEFT" ID="ID_1044486279" CREATED="1412588136446" MODIFIED="1412588312430"/>
 </node>
-<node TEXT="addons.roan.index.divisionRootMAPFILETitle" ID="ID_1130402108" CREATED="1412588136446" MODIFIED="1412618779092">
+<node TEXT="addons.roan.index.divisionRootMAPFILETitle" FOLDED="true" ID="ID_1130402108" CREATED="1412588136446" MODIFIED="1412618779092">
 <node TEXT="MAPS-FILES" ID="ID_1434943384" CREATED="1412588136446" MODIFIED="1412618997012"/>
 </node>
-<node TEXT="addons.roan.index.divisionRootFILEMAPTitle" ID="ID_1216965586" CREATED="1412588136446" MODIFIED="1412618888616">
+<node TEXT="addons.roan.index.divisionRootFILEMAPTitle" FOLDED="true" ID="ID_1216965586" CREATED="1412588136446" MODIFIED="1412618888616">
 <node TEXT="FILES-MAPS" ID="ID_1345828015" CREATED="1412588136446" MODIFIED="1412619012544"/>
 </node>
 <node TEXT="addons.roan.index.sortNONETitle" FOLDED="true" ID="ID_1706484745" CREATED="1412588161164" MODIFIED="1412588312430">
@@ -2031,7 +2025,7 @@
 </node>
 </node>
 </node>
-<node TEXT="nl" ID="ID_364081803" CREATED="1399926585775" MODIFIED="1412619119742">
+<node TEXT="nl" FOLDED="true" ID="ID_364081803" CREATED="1399926585775" MODIFIED="1412619119742">
 <attribute_layout NAME_WIDTH="329" VALUE_WIDTH="329"/>
 <attribute NAME="addons.${name}" VALUE="roan"/>
 <attribute NAME="addons.${name}.presentation" VALUE="RoAn-Presentatie"/>
@@ -2268,7 +2262,7 @@
 <attribute NAME="addons.roan.index.sortBACKWARDTitle" VALUE="ACHTERWAARTS"/>
 <attribute NAME="addons.roan.index.showFileExtensionTitle" VALUE="Toon bestandsextensie"/>
 <attribute NAME="addons.roan.index.isDirectoryNodesTitle" VALUE="Map-knopen"/>
-<node TEXT="tools" ID="ID_1398221811" CREATED="1403179041931" MODIFIED="1403186598887">
+<node TEXT="tools" FOLDED="true" ID="ID_1398221811" CREATED="1403179041931" MODIFIED="1403186598887">
 <font BOLD="true"/>
 <node TEXT="Instruction for translation" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1359960992" CREATED="1403185903209" MODIFIED="1403185991547">
 <node TEXT="Copy node &quot;en&quot;" ID="ID_920384965" CREATED="1403185951531" MODIFIED="1403185979449"/>
@@ -3060,16 +3054,16 @@
 <node TEXT="addons.roan.index.divisionRootRIGHTTitle" FOLDED="true" ID="ID_1305844915" CREATED="1412588113623" MODIFIED="1412588312414">
 <node TEXT="RECHTS" ID="ID_629664673" CREATED="1412588113623" MODIFIED="1412589379520"/>
 </node>
-<node TEXT="addons.roan.index.divisionRootLEFTRIGHTTitle" ID="ID_252087521" CREATED="1412588123927" MODIFIED="1412588312414">
+<node TEXT="addons.roan.index.divisionRootLEFTRIGHTTitle" FOLDED="true" ID="ID_252087521" CREATED="1412588123927" MODIFIED="1412588312414">
 <node TEXT="LINKS-RECHTS" ID="ID_441575632" CREATED="1412588123927" MODIFIED="1412618731336"/>
 </node>
-<node TEXT="addons.roan.index.divisionRootRIGHTLEFTTitle" ID="ID_1451996413" CREATED="1412588136446" MODIFIED="1412588312430">
+<node TEXT="addons.roan.index.divisionRootRIGHTLEFTTitle" FOLDED="true" ID="ID_1451996413" CREATED="1412588136446" MODIFIED="1412588312430">
 <node TEXT="RECHTS-LINKS" ID="ID_1091003147" CREATED="1412588136446" MODIFIED="1412589399410"/>
 </node>
-<node TEXT="addons.roan.index.divisionRootMAPFILETitle" ID="ID_1720184802" CREATED="1412588136446" MODIFIED="1412618779092">
+<node TEXT="addons.roan.index.divisionRootMAPFILETitle" FOLDED="true" ID="ID_1720184802" CREATED="1412588136446" MODIFIED="1412618779092">
 <node TEXT="MAPPEN-BESTANDEN" ID="ID_479353250" CREATED="1412588136446" MODIFIED="1412619095683"/>
 </node>
-<node TEXT="addons.roan.index.divisionRootFILEMAPTitle" ID="ID_14478110" CREATED="1412588136446" MODIFIED="1412618888616">
+<node TEXT="addons.roan.index.divisionRootFILEMAPTitle" FOLDED="true" ID="ID_14478110" CREATED="1412588136446" MODIFIED="1412618888616">
 <node TEXT="BESTANDEN-MAPPEN" ID="ID_1154816460" CREATED="1412588136446" MODIFIED="1412618857326"/>
 </node>
 <node TEXT="addons.roan.index.sortNONETitle" FOLDED="true" ID="ID_471934880" CREATED="1412588161164" MODIFIED="1412588312430">
@@ -3091,7 +3085,7 @@
 </node>
 </node>
 </node>
-<node TEXT="preferences.xml" FOLDED="true" POSITION="left" ID="ID_340334716" CREATED="1399926585715" MODIFIED="1411718514778">
+<node TEXT="preferences.xml" FOLDED="true" POSITION="left" ID="ID_340334716" CREATED="1399926585715" MODIFIED="1468364519477">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
