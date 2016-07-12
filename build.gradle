@@ -1,0 +1,22 @@
+apply plugin: 'groovy'
+
+targetCompatibility='1.6'
+
+libsDirName = "${rootDir}/lib"
+clean.doFirst { delete "${rootDir}/lib" }
+
+repositories {
+	mavenCentral()
+	flatDir name: 'localGitDepsRepository',
+	dirs: [
+		"${rootDir}/../freeplane/BUILD/core/org.freeplane.core/lib",
+		"${rootDir}/../freeplane/BUILD/plugins/org.freeplane.plugin.script/lib"
+	]
+}
+
+dependencies {
+	compile group: 'org.freeplane.core', name: 'freeplaneeditor', version: '1.5'
+	compile group: 'org.freeplane.core', name: 'freeplaneviewer', version: '1.5'
+	compile group: 'org.freeplane.script', name: 'plugin', version: '1.5'
+	compile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.3.1'
+}

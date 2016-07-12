@@ -1,0 +1,9 @@
+*.class
+.gradle
+.project
+.settings
+build
+lib
+version.properties
+*-*addon.mm
+*.bak
