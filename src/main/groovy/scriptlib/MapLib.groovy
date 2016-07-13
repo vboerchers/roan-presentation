@@ -1,22 +1,15 @@
 package scriptlib
 //Author Jodi D.Krol 2014-04
-import java.awt.Dimension;
-import java.awt.Point;
-import java.awt.Rectangle;
-import java.io.File;
-import java.util.ArrayList;
+import javax.swing.SwingUtilities
+
 import org.freeplane.core.resources.ResourceController
-import org.freeplane.core.ui.components.UITools;
 import org.freeplane.features.map.MapModel
 import org.freeplane.features.mode.Controller
-import org.freeplane.features.ui.ViewController;
 import org.freeplane.plugin.script.proxy.Proxy
-import org.freeplane.view.swing.map.MainView;
-import org.freeplane.view.swing.map.NodeView;
-
-import javax.swing.JComponent;
-import javax.swing.JViewport;
-import javax.swing.SwingUtilities
+import org.freeplane.view.swing.map.NodeView
+import org.freeplane.view.swing.map.MapScroller
+import org.freeplane.view.swing.map.MapView
+import org.freeplane.view.swing.map.ScrollingDirective
 
 class MapLib {
 	
@@ -131,19 +124,25 @@ class MapLib {
 		//println "TEST invoke_center $proxyNode.text"
 		
 		SwingUtilities.invokeAndWait(new Runnable(){
-			public void run(){
-				//final NodeView nodeView= Controller.currentController.mapViewManager.mapView.getNodeView(proxyNode.delegate)
-				final NodeView nodeView= Controller.currentController.mapViewManager.mapView.getNodeView(proxyNode.delegate)
-				if (nodeView==null) {println "ERROR invoke_centerNode nodeView=null, skip center; node=$proxyNode.text"}
-				else Controller.currentController.mapViewManager.mapView.centerNode(nodeView,slow)
-				}})
+			public void run() {
+				centerNode(proxyNode, slow)
+			}
+		})
 	}
 	
 	static void centerNode(Proxy.Node proxyNode, Boolean slow){
 		//TEST@@Thread.sleep(50)//workaround
-				final NodeView nodeView= Controller.currentController.mapViewManager.mapView.getNodeView(proxyNode.delegate)
-				if (nodeView==null) println "ERROR centerNode nodeView=null, skip center"
-				else Controller.currentController.mapViewManager.mapView.centerNode(nodeView,slow)
+		def mapView = Controller.currentController.mapViewManager.mapView
+		final NodeView nodeView= mapView.getNodeView(proxyNode.delegate)
+		if (nodeView==null) {
+			println "ERROR centerNode nodeView=null, skip center"
+		}
+		else {
+			def mapScroller = new MapScroller(mapView)
+			// otherwise we hit a NPE
+			mapScroller.setAnchorView(nodeView)		
+			mapScroller.scrollNode(nodeView, ScrollingDirective.SCROLL_NODE_TO_CENTER, slow)
+		}
 	}
 	//****
 	

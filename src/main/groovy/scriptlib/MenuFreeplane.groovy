@@ -105,8 +105,7 @@ class MenuFreeplane{
 		 private String menuActionFormat(String menuAction) {
 			 menuAction=(menuAction-"-X").trim() 
 			 if (menuAction=="") return null
-			 else if (menuAction[0]=='$') return menuAction
-			 else return '$'+ menuAction+'$0'
+			 else return menuAction
 			 }
 	 
 		 ArrayList formattedActions(ArrayList menuActions){

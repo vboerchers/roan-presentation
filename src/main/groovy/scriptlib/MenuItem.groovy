@@ -14,7 +14,7 @@ class MenuItem extends JMenuItem{
 	MenuItem(String title, def menuExecute){
 		super(title)
 		this.menuObject=menuExecute
-		addActionListener(handler)
+		addActionListener(createHandler())
 		setVisible(true)
 	}
 

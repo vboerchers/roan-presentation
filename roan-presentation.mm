@@ -1,6 +1,6 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Roan-Presentation" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1468364996235" BACKGROUND_COLOR="#97c7dc" LINK="https://sourceforge.net/projects/freeplane/files/addons/roan/presentation/">
+<node TEXT="Roan-Presentation" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1468449331741" BACKGROUND_COLOR="#97c7dc" LINK="https://sourceforge.net/projects/freeplane/files/addons/roan/presentation/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="false" show_note_icons="true"/>
@@ -53,17 +53,17 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="4"/>
-<attribute_layout NAME_WIDTH="144" VALUE_WIDTH="144"/>
+<attribute_layout NAME_WIDTH="149" VALUE_WIDTH="221"/>
 <attribute NAME="name" VALUE="roan"/>
-<attribute NAME="version" VALUE="0,2" OBJECT="org.freeplane.features.format.FormattedNumber|0.2"/>
+<attribute NAME="version" VALUE="v0.2"/>
 <attribute NAME="author" VALUE="Jodi D.Krol"/>
-<attribute NAME="maintainer since 2.0" VALUE="Volker B&#xf6;rchers"/>
 <attribute NAME="graphics" VALUE="Pedrag Cuklin"/>
-<attribute NAME="freeplaneVersionFrom" VALUE="1.3.11"/>
+<attribute NAME="maintainer since 2.0" VALUE="Volker B&#xf6;rchers"/>
+<attribute NAME="freeplaneVersionFrom" VALUE="1.5.4"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
 <attribute NAME="updateUrl" VALUE=""/>
 <attribute NAME="included" VALUE="addon Inline Image by Rickenbroc"/>
-<attribute NAME="roan-p" VALUE="inited,v0.1.0"/>
+<attribute NAME="roan-p" VALUE="initial, v0.1.0"/>
 <attribute NAME="roan-currentNode" VALUE=""/>
 <richcontent TYPE="NOTE">
 
@@ -101,7 +101,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_342474895" CREATED="1399926585605" MODIFIED="1468364519464">
+<node TEXT="description" POSITION="left" ID="ID_342474895" CREATED="1399926585605" MODIFIED="1468449331767">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -143,7 +143,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1771154217" CREATED="1399926585625" MODIFIED="1468364519467">
+<node TEXT="changes" FOLDED="true" POSITION="left" ID="ID_1771154217" CREATED="1399926585625" MODIFIED="1468449331773">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -160,7 +160,7 @@
 </richcontent>
 <node TEXT="see Help file" ID="ID_1209734697" CREATED="1403000881360" MODIFIED="1403000890067"/>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_166707522" CREATED="1399926585645" MODIFIED="1468364519472">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_166707522" CREATED="1399926585645" MODIFIED="1468449331781">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -183,7 +183,7 @@
 </richcontent>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the&#xa;GNU General Public License for more details." ID="ID_1198072133" CREATED="1399926585655" MODIFIED="1403811602198"/>
 </node>
-<node TEXT="default.properties" FOLDED="true" POSITION="left" ID="ID_1785222944" CREATED="1399926585745" MODIFIED="1468364519480">
+<node TEXT="default.properties" FOLDED="true" POSITION="left" ID="ID_1785222944" CREATED="1399926585745" MODIFIED="1468449331802">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -380,7 +380,7 @@
 </node>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1559504636" CREATED="1399926585795" MODIFIED="1468364716343">
+<node TEXT="deinstall" POSITION="left" ID="ID_1559504636" CREATED="1399926585795" MODIFIED="1468449331827">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -437,10 +437,13 @@
 <attribute NAME="delete" VALUE="${installationbase}/doc/roan-presentation_help/someMp3.mp3"/>
 <attribute NAME="delete" VALUE="${installationbase}/icons/roan-Scene.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-back.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-icon.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-screenshot-1.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-step.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/roan-stop.png"/>
+<attribute NAME="delete" VALUE="${installationbase}/resources/images/roan.png"/>
 </node>
-<node TEXT="scripts" FOLDED="true" POSITION="right" ID="ID_760814346" CREATED="1399926585835" MODIFIED="1468364519500">
+<node TEXT="scripts" FOLDED="true" POSITION="right" ID="ID_760814346" CREATED="1399926585835" MODIFIED="1468449331838">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -684,7 +687,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" FOLDED="true" POSITION="right" ID="ID_562669730" CREATED="1399926586037" MODIFIED="1468364519574">
+<node TEXT="zips" FOLDED="true" POSITION="right" ID="ID_562669730" CREATED="1399926586037" MODIFIED="1468449331867">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -726,7 +729,7 @@
 <node TEXT="doc" ID="ID_1148428595" CREATED="1402667462146" MODIFIED="1468364465603"/>
 <node TEXT="icons" ID="ID_129487079" CREATED="1411213237525" MODIFIED="1468364472195"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1191857106" CREATED="1399926586047" MODIFIED="1468364519591">
+<node TEXT="images" FOLDED="true" POSITION="right" ID="ID_1191857106" CREATED="1399926586047" MODIFIED="1468449331885">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -761,8 +764,14 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="${name}.png" ID="ID_665147183" CREATED="1468449303816" MODIFIED="1468449823843"/>
+<node TEXT="${name}-back.png" ID="ID_485342781" CREATED="1468449303816" MODIFIED="1468449303816"/>
+<node TEXT="${name}-icon.png" ID="ID_1786892861" CREATED="1468449303816" MODIFIED="1468449303816"/>
+<node TEXT="${name}-screenshot-1.png" ID="ID_1820208624" CREATED="1468449303818" MODIFIED="1468449303818"/>
+<node TEXT="${name}-step.png" ID="ID_729263927" CREATED="1468449303820" MODIFIED="1468449303820"/>
+<node TEXT="${name}-stop.png" ID="ID_1037618512" CREATED="1468449303822" MODIFIED="1468449303822"/>
 </node>
-<node TEXT="lib" FOLDED="true" POSITION="right" ID="ID_1437272991" CREATED="1401781353621" MODIFIED="1468364519541">
+<node TEXT="lib" FOLDED="true" POSITION="right" ID="ID_1437272991" CREATED="1401781353621" MODIFIED="1468449331855">
 <edge COLOR="#7c7c00"/>
 <richcontent TYPE="NOTE">
 
@@ -806,7 +815,7 @@
 <node TEXT="Instruction for translating" LOCALIZED_STYLE_REF="styles.topic" POSITION="right" ID="ID_415454060" CREATED="1403188326818" MODIFIED="1403201382858" LINK="#ID_1819148369">
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_478027492" CREATED="1399926585755" MODIFIED="1468364519485">
+<node TEXT="translations" FOLDED="true" POSITION="left" ID="ID_478027492" CREATED="1399926585755" MODIFIED="1468449331809">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -3085,7 +3094,7 @@
 </node>
 </node>
 </node>
-<node TEXT="preferences.xml" FOLDED="true" POSITION="left" ID="ID_340334716" CREATED="1399926585715" MODIFIED="1468364519477">
+<node TEXT="preferences.xml" FOLDED="true" POSITION="left" ID="ID_340334716" CREATED="1399926585715" MODIFIED="1468449331793">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
